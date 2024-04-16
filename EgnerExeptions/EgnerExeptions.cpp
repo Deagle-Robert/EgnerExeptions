@@ -5,7 +5,7 @@
 using namespace std;
 char character(char,int);
 int main() {
-
+	cout << character('f',-32) << endl;
 
 
 
@@ -20,5 +20,5 @@ int main() {
 
 
 char character(char start, int offset){
-
+	return start + offset;
 };
